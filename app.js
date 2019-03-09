@@ -12,7 +12,7 @@ var background = draw.group();
 background.add(draw.rect(dimensions.width, dimensions.height).fill('#303030'));
 background.add(draw.circle(50).x(150.0).y(150.0).fill('#a0a0a0'));
 background.add(draw.circle(20).x(450.0).y(250.0).fill('#a0a0a0'));
-background.add(draw.circle(70).x(200.0).y(500.0).fill('#b0b0b0'));
+background.add(draw.circle(70).x(200.0).y(500.0).fill('#f1948a'));
 
 var rocket_dimensions = {
     width: 10,
