@@ -67,8 +67,8 @@ SVG.on(document, 'keydown', function(e) {
     // right
     if (e.keyCode == 39) coordinates.angle += 1.0;
 
-    // down -> burn the fuel
-    if (e.keyCode == 40) {
+    // up -> burn the fuel
+    if (e.keyCode == 38) {
         fire.fill('#f39c12');
 
         coordinates.angle = coordinates.angle % 360.0;
